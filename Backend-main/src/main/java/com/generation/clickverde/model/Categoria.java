@@ -20,6 +20,7 @@ public class Categoria {
 	@Size(min = 5, max = 60, message = "O atributo título deve conter no mínimo 05 e no máximo 60 caracteres")
 	private String nome;
 	
+	
 	@Size(max = 150, message = "O atributo título deve conter no máximo 150 caracteres")
 	private String descricao;
 	
